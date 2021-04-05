@@ -1661,6 +1661,7 @@ mark {
     text-align: center;
 }
 
+
 .text-justify {
     text-align: justify
 }
@@ -2304,10 +2305,7 @@ pre code {
         float: left
     }
     .col-sm-12 {
-        width: 100%;
-        margin-left: auto;
-        margin-right: auto;
-        border: solid 1px black;
+        width: 100%
     }
     .col-sm-11 {
         width: 91.66666667%
@@ -4204,9 +4202,10 @@ fieldset[disabled] .btn-link:hover {
 .btn-group-lg>.btn,
 .btn-lg {
     padding: 10px 16px;
-    font-size: 18px;
+    font-size: 1.5rem;
+    font-weight: 700;
     line-height: 1.3333333;
-    border-radius: 6px
+    border-radius: 50px
 }
 
 .btn-group-sm>.btn,
