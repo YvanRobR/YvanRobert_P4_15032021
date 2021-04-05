@@ -777,6 +777,12 @@ h4 {
     margin-top: 5rem;
 }
 
+.col-sm-54 {
+    
+    position: relative;
+    
+}
+
 @media (min-width: 767px) {
     .portfolio-row {
         margin-bottom: 44px;

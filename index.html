@@ -10,26 +10,26 @@
 	
 	<link rel="preload" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous" as="style">
 
-	<link rel="preload" href="./js/jquery-2.1.0.js" as="script">
-	<link rel="preload" href="./js/bootstrap.js" as="script">
-	<link rel="preload" href="./js/blocs.js" as="script">
-	<link rel="preload" href="./js/jquery.touchSwipe.js" as="script">
-	<link rel="preload" href="./js/gmaps.js" as="script">
-	<link rel="preload" href="./js/jqBootstrapValidation-min.js" as="script">
-	<link rel="preload" href="./js/formHandler-min.js" as="script">
+	<!-- <link rel="preload" href="./js/jquery-2.1.0.js" as="script"> -->
+	<!-- <link rel="preload" href="./js/bootstrap.js" as="script"> -->
+	<!-- <link rel="preload" href="./js/blocs.js" as="script"> -->
+	<!-- <link rel="preload" href="./js/jquery.touchSwipe.js" as="script"> -->
+	<!-- <link rel="preload" href="./js/gmaps.js" as="script"> -->
+	<!-- <link rel="preload" href="./js/jqBootstrapValidation-min.js" as="script"> -->
+	<!-- <link rel="preload" href="./js/formHandler-min.js" as="script"> -->
 	
-	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/style-mini.css">
 	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="./css/et-line.css">
-	<link rel="stylesheet" type="text/css" href="./css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="./css/et-line-mini.css">
+	<link rel="stylesheet" type="text/css" href="./css/bootstrap-mini.css">
     
-	<script src="./js/jquery-2.1.0.js"></script>
-	<script src="./js/bootstrap.js"></script>
-	<script src="./js/blocs.js"></script>
-	<script src="./js/jquery.touchSwipe.js"></script>
-	<script src="./js/gmaps.js"></script>
-	<script src="./js/jqBootstrapValidation-min.js"></script>
-	<script src="./js/formHandler-min.js"></script>
+	<script src="./js/jquery-2.1.0.js" defer></script>
+	<script src="./js/bootstrap.js" defer></script>
+	<script src="./js/blocs.js" defer></script>
+	<script src="./js/jquery.touchSwipe.js" defer></script>
+	<script src="./js/gmaps.js" defer></script>
+	<script src="./js/jqBootstrapValidation-min.js" defer></script>
+	<script src="./js/formHandler-min.js" defer></script>
     
 
     
@@ -63,7 +63,7 @@
 					<li><a href="#bloc-4-portfolio" title="Portfolio">Portfolio</a>
 					</li>
 					<li>
-						<a href="page2.html">page2 &gt;</a>
+						<a href="#bloc-5-cta">Nous contacter</a>
 					</li>
 				</ul>
 			</div>
@@ -227,8 +227,34 @@
 			<h2 class="mg-md text-center tc-white">
 				Prêt pour redonner vie à votre projet ?<br>Contactez notre équipe !
 			</h2>
-			<div class="col-sm-12 text-center">
-				<a href="page2.html" class="btn btn-atomic-tangerine btn-clean btn-rd btn-lg cta-hero">Nous contacter</a>
+			<div class="col-sm-54">
+				<form id="form_1" novalidate>
+
+					<div class="form-group">
+						<label for="name" class="tc-white">Nom</label>
+						<input id="name" class="form-control" placeholder="Nom requis" required />
+					</div>
+
+					<div class="form-group">
+						<label for="email" class="tc-white">Adresse email</label>
+						<input id="email" class="form-control" type="email" placeholder="Email requis" required />
+					</div>
+
+					<div class="form-group">
+						<label for="input_504" class="tc-white">Comment nous avez-vous connu ?</label>
+						<input class="form-control" type="email" required id="input_504" />
+					</div>
+
+					<div class="form-group">
+						<label for="message" class="tc-white">Brief de votre projet (Ajoutez autant de détails que nécessaire)<br></label>
+						<textarea id="message" class="form-control" rows="4" cols="100" required></textarea>
+					</div>
+				
+					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
+						Envoyer
+					</button>
+
+				</form>
 			</div>
 		</div>
 	</div>
