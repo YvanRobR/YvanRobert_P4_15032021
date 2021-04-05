@@ -1658,7 +1658,7 @@ mark {
 }
 
 .text-center {
-    text-align: center
+    text-align: center;
 }
 
 .text-justify {
@@ -2304,7 +2304,10 @@ pre code {
         float: left
     }
     .col-sm-12 {
-        width: 100%
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+        border: solid 1px black;
     }
     .col-sm-11 {
         width: 91.66666667%

@@ -45,7 +45,7 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 100px 0;
 }
 
 .bloc-md {
@@ -655,7 +655,7 @@ a {
 }
 
 .container {
-    max-width: 1000px;
+    width: 100%;
 }
 
 .hero-bloc-text {
@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1rem;
 }
 
 .tight-width-whitespace {
@@ -705,21 +705,23 @@ p {
 }
 
 h2 {
-    font-size: 22px;
+    font-size: 1rem;
+    text-transform: uppercase;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 1rem;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
 
 .med-width-whitespace {
-    max-width: 800px;
-    margin: auto auto auto auto;
+    width: 100%;
+    margin: auto;
     box-shadow: 0px 0px 0px #000000;
+    border: solid 1px black;
 }
 
 h1 {
@@ -980,7 +982,7 @@ h4 {
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
-        padding: 40px 0;
+        padding: 400px 0;
     }
     .bloc-sm,
     .bloc-md {
