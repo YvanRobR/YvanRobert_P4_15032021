@@ -42,14 +42,12 @@ a:hover {
 .bloc .container {
     padding-left: auto;
     padding-right: auto;
-    /*border: solid 1px black;*/
 }
 
 .bloc-lg {
     padding: 100px 50px;
     display: flex;
     justify-content: center;
-    border: solid 1px black;
 }
 
 .bloc-fl {
@@ -57,7 +55,6 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: solid 1px black;
 }
 
 .bloc-md {
@@ -65,11 +62,10 @@ a:hover {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    border: solid 1px black;
 }
 
 .bloc-sm {
-    padding: 20px 50px;
+    padding: 20px 0 20px 0;
 }
 
 .bg-center,
@@ -716,9 +712,16 @@ p {
 }
 
 .social {
-    max-width: 400px;
-    margin: auto auto auto auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
 }
+
+
 
 h2 {
     font-size: 22px;
@@ -766,8 +769,22 @@ h4 {
 }
 
 .portfolio-row {
-    margin-bottom: 44px;
-    margin-top: 50px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.col-sm-6 {
+    margin-top: 5rem;
+}
+
+@media (min-width: 767px) {
+    .portfolio-row {
+        margin-bottom: 44px;
+        margin-top: 50px;
+    }
+    .col-sm-6 {
+        margin-top: 0;
+    }
 }
 
 .avatar {
@@ -1071,7 +1088,6 @@ h4 {
     font-size: 2rem;
     font-weight: 500;
     margin-bottom: 0px;
-    border: solid 1px black;
     color: #000000;
 }
 
@@ -1094,8 +1110,4 @@ h4 {
 .taille-2 {
     font-size: 1.8rem;
     font-weight: 500;
-}
-
-.fa {
-    color: white;
 }
