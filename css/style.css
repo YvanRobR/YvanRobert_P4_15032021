@@ -46,8 +46,8 @@ a:hover {
 
 .bloc-lg {
     padding: 100px 50px;
-    display: flex;
-    justify-content: center;
+    /*display: flex;*/
+    /*justify-content: center;*/
 }
 
 .bloc-fl {
@@ -1113,4 +1113,3 @@ h4 {
     font-size: 1.8rem;
     font-weight: 500;
 }
-
