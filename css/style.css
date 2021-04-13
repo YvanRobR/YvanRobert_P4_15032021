@@ -46,8 +46,8 @@ a:hover {
 
 .bloc-lg {
     padding: 100px 50px;
-    /*display: flex;*/
-    /*justify-content: center;*/
+    display: flex;
+    justify-content: center;
 }
 
 .bloc-fl {
@@ -488,7 +488,7 @@ button {
 }
 
 .icon-md {
-    font-size: 30px!important;
+    font-size: 48px!important;
 }
 
 .icon-lg {
@@ -713,15 +713,28 @@ p {
 
 .social {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: center;
     width: 50%;
     margin-left: auto;
     margin-right: auto;
     margin-top: 2rem;
 }
 
+@media (min-width: 768px) {
+    .social {
+        flex-wrap: nowrap;
+    }
+}
 
+.icon-md-space {
+    margin-left: 1.5vw;
+    margin-right: 1.5vw;
+    padding-top: 1.5vh;
+    padding-bottom: 1vh;
+
+}
 
 h2 {
     font-size: 22px;
