@@ -27,6 +27,8 @@ a:hover {
     background: #FFFFFF url("img/pageload-spinner.gif") no-repeat center center;
 }
 
+/* commentaire */
+
 .bloc {
     width: 100%;
     clear: both;
@@ -834,12 +836,12 @@ h4 {
 
 .btn-atomic-tangerine {
     background: #F3976C;
-    color: #000000!important;
+    color: #1E1212!important;
 }
 
 .btn-atomic-tangerine:hover {
     background: #c27956!important;
-    color: #FFFFFF!important;
+    color: #1E1212!important;
 }
 
 .ltc-white {
