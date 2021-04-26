@@ -1127,4 +1127,5 @@ h4 {
 .taille-2 {
     font-size: 1.8rem;
     font-weight: 500;
+    text-transform: none;
 }
